@@ -2,7 +2,7 @@
 Data cleaning course project script run_analysis.R
 
 
-# run_analysis.R
+## run_analysis.R
 
 **Date** : 09-05-2016
 
