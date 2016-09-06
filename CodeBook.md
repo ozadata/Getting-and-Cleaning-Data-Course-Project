@@ -34,23 +34,23 @@ the original data as follows:
 
 The original (author-defined) variable-names for the data were:
 
-# tBodyAcc-XYZ
-# tGravityAcc-XYZ
-# tBodyAccJerk-XYZ
-# tBodyGyro-XYZ
-# tBodyGyroJerk-XYZ
-# tBodyAccMag
-# tGravityAccMag
-# tBodyAccJerkMag
-# tBodyGyroMag
-# tBodyGyroJerkMag
-# fBodyAcc-XYZ
-# fBodyAccJerk-XYZ
-# fBodyGyro-XYZ
-# fBodyAccMag
-# fBodyAccJerkMag
-# fBodyGyroMag
-# fBodyGyroJerkMag 
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
 
 # Data processing by run_analysis.R
 
@@ -80,80 +80,80 @@ data into an **average** of each variable for each activity performed by each su
 
 - The resulting summary table has 180 observations and the following 68 variables:
 
-#  [1] "subject" : the code of subjects enrolled in the study
-#  [2] "activity": 6 distinct activities performed by the subjects and recorded during the experiments
+ [1] "subject" : the code of subjects enrolled in the study
+ [2] "activity": 6 distinct activities performed by the subjects and recorded during the experiments
 
 ** Time variables: UNITS : sec , described in the author description above **
 ** Note that the variables are provided as the average of each category in this summary table**
 
-#  [3] "mean_time_Body_acceleration_mean_X"
-#  [4] "mean_time_Body_acceleration_mean_Y"
-#  [5] "mean_time_Body_acceleration_mean_Z"
-#  [6] "mean_time_Body_acceleration_std_X"
-#  [7] "mean_time_Body_acceleration_std_Y"
-#  [8] "mean_time_Body_acceleration_std_Z"
-#  [9] "mean_time_Gravity_acceleration_mean_X"
-# [10] "mean_time_Gravity_acceleration_mean_Y"
-# [11] "mean_time_Gravity_acceleration_mean_Z"
-# [12] "mean_time_Gravity_acceleration_std_X"
-# [13] "mean_time_Gravity_acceleration_std_Y"
-# [14] "mean_time_Gravity_acceleration_std_Z"
-# [15] "mean_time_Body_acceleration_Jerk_mean_X"
-# [16] "mean_time_Body_acceleration_Jerk_mean_Y"
-# [17] "mean_time_Body_acceleration_Jerk_mean_Z"
-# [18] "mean_time_Body_acceleration_Jerk_std_X"
-# [19] "mean_time_Body_acceleration_Jerk_std_Y"
-# [20] "mean_time_Body_acceleration_Jerk_std_Z"
-# [21] "mean_time_Body_gyroscope_mean_X"
-# [22] "mean_time_Body_gyroscope_mean_Y"
-# [23] "mean_time_Body_gyroscope_mean_Z"
-# [24] "mean_time_Body_gyroscope_std_X"
-# [25] "mean_time_Body_gyroscope_std_Y"
-# [26] "mean_time_Body_gyroscope_std_Z"
-# [27] "mean_time_Body_gyroscope_Jerk_mean_X"
-# [28] "mean_time_Body_gyroscope_Jerk_mean_Y"
-# [29] "mean_time_Body_gyroscope_Jerk_mean_Z"
-# [30] "mean_time_Body_gyroscope_Jerk_std_X"
-# [31] "mean_time_Body_gyroscope_Jerk_std_Y"
-# [32] "mean_time_Body_gyroscope_Jerk_std_Z"
-# [33] "mean_time_Body_acceleration_magnitude_mean"
-# [34] "mean_time_Body_acceleration_magnitude_std"
-# [35] "mean_time_Gravity_acceleration_magnitude_mean"
-# [36] "mean_time_Gravity_acceleration_magnitude_std"
-# [37] "mean_time_Body_acceleration_Jerk_magnitude_mean"
-# [38] "mean_time_Body_acceleration_Jerk_magnitude_std"
-# [39] "mean_time_Body_gyroscope_magnitude_mean"
-# [40] "mean_time_Body_gyroscope_magnitude_std"
-# [41] "mean_time_Body_gyroscope_Jerk_magnitude_mean"
-# [42] "mean_time_Body_gyroscope_Jerk_magnitude_std"
+ [3] "mean_time_Body_acceleration_mean_X"
+ [4] "mean_time_Body_acceleration_mean_Y"
+ [5] "mean_time_Body_acceleration_mean_Z"
+ [6] "mean_time_Body_acceleration_std_X"
+ [7] "mean_time_Body_acceleration_std_Y"
+ [8] "mean_time_Body_acceleration_std_Z"
+ [9] "mean_time_Gravity_acceleration_mean_X"
+[10] "mean_time_Gravity_acceleration_mean_Y"
+[11] "mean_time_Gravity_acceleration_mean_Z"
+[12] "mean_time_Gravity_acceleration_std_X"
+[13] "mean_time_Gravity_acceleration_std_Y"
+[14] "mean_time_Gravity_acceleration_std_Z"
+[15] "mean_time_Body_acceleration_Jerk_mean_X"
+[16] "mean_time_Body_acceleration_Jerk_mean_Y"
+[17] "mean_time_Body_acceleration_Jerk_mean_Z"
+[18] "mean_time_Body_acceleration_Jerk_std_X"
+[19] "mean_time_Body_acceleration_Jerk_std_Y"
+[20] "mean_time_Body_acceleration_Jerk_std_Z"
+[21] "mean_time_Body_gyroscope_mean_X"
+[22] "mean_time_Body_gyroscope_mean_Y"
+[23] "mean_time_Body_gyroscope_mean_Z"
+[24] "mean_time_Body_gyroscope_std_X"
+[25] "mean_time_Body_gyroscope_std_Y"
+[26] "mean_time_Body_gyroscope_std_Z"
+[27] "mean_time_Body_gyroscope_Jerk_mean_X"
+[28] "mean_time_Body_gyroscope_Jerk_mean_Y"
+[29] "mean_time_Body_gyroscope_Jerk_mean_Z"
+[30] "mean_time_Body_gyroscope_Jerk_std_X"
+[31] "mean_time_Body_gyroscope_Jerk_std_Y"
+[32] "mean_time_Body_gyroscope_Jerk_std_Z"
+[33] "mean_time_Body_acceleration_magnitude_mean"
+[34] "mean_time_Body_acceleration_magnitude_std"
+[35] "mean_time_Gravity_acceleration_magnitude_mean"
+[36] "mean_time_Gravity_acceleration_magnitude_std"
+[37] "mean_time_Body_acceleration_Jerk_magnitude_mean"
+[38] "mean_time_Body_acceleration_Jerk_magnitude_std"
+[39] "mean_time_Body_gyroscope_magnitude_mean"
+[40] "mean_time_Body_gyroscope_magnitude_std"
+[41] "mean_time_Body_gyroscope_Jerk_magnitude_mean"
+[42] "mean_time_Body_gyroscope_Jerk_magnitude_std"
 
 ** Frequency variables: UNITS : HZ, described in the author description above **
 ** Note that the variables are provided as the average of each category in this summary table**
 
 
-# [43] "mean_frequency_Body_acceleration_mean_X"
-# [44] "mean_frequency_Body_acceleration_mean_Y"
-# [45] "mean_frequency_Body_acceleration_mean_Z"
-# [46] "mean_frequency_Body_acceleration_std_X"
-# [47] "mean_frequency_Body_acceleration_std_Y"
-# [48] "mean_frequency_Body_acceleration_std_Z"
-# [49] "mean_frequency_Body_acceleration_Jerk_mean_X"
-# [50] "mean_frequency_Body_acceleration_Jerk_mean_Y"
-# [51] "mean_frequency_Body_acceleration_Jerk_mean_Z"
-# [52] "mean_frequency_Body_acceleration_Jerk_std_X"
-# [53] "mean_frequency_Body_acceleration_Jerk_std_Y"
-# [54] "mean_frequency_Body_acceleration_Jerk_std_Z"
-# [55] "mean_frequency_Body_gyroscope_mean_X"
-# [56] "mean_frequency_Body_gyroscope_mean_Y"
-# [57] "mean_frequency_Body_gyroscope_mean_Z"
-# [58] "mean_frequency_Body_gyroscope_std_X"
-# [59] "mean_frequency_Body_gyroscope_std_Y"
-# [60] "mean_frequency_Body_gyroscope_std_Z"
-# [61] "mean_frequency_Body_acceleration_magnitude_mean"
-# [62] "mean_frequency_Body_acceleration_magnitude_std"
-# [63] "mean_frequency_BodyBody_acceleration_Jerk_magnitude_mean"
-# [64] "mean_frequency_BodyBody_acceleration_Jerk_magnitude_std"
-# [65] "mean_frequency_BodyBody_gyroscope_magnitude_mean"
-# [66] "mean_frequency_BodyBody_gyroscope_magnitude_std"
-# [67] "mean_frequency_BodyBody_gyroscope_Jerk_magnitude_mean"
-# [68] "mean_frequency_BodyBody_gyroscope_Jerk_magnitude_std"
+[43] "mean_frequency_Body_acceleration_mean_X"
+[44] "mean_frequency_Body_acceleration_mean_Y"
+[45] "mean_frequency_Body_acceleration_mean_Z"
+[46] "mean_frequency_Body_acceleration_std_X"
+[47] "mean_frequency_Body_acceleration_std_Y"
+[48] "mean_frequency_Body_acceleration_std_Z"
+[49] "mean_frequency_Body_acceleration_Jerk_mean_X"
+[50] "mean_frequency_Body_acceleration_Jerk_mean_Y"
+[51] "mean_frequency_Body_acceleration_Jerk_mean_Z"
+[52] "mean_frequency_Body_acceleration_Jerk_std_X"
+[53] "mean_frequency_Body_acceleration_Jerk_std_Y"
+[54] "mean_frequency_Body_acceleration_Jerk_std_Z"
+[55] "mean_frequency_Body_gyroscope_mean_X"
+[56] "mean_frequency_Body_gyroscope_mean_Y"
+[57] "mean_frequency_Body_gyroscope_mean_Z"
+[58] "mean_frequency_Body_gyroscope_std_X"
+[59] "mean_frequency_Body_gyroscope_std_Y"
+[60] "mean_frequency_Body_gyroscope_std_Z"
+[61] "mean_frequency_Body_acceleration_magnitude_mean"
+[62] "mean_frequency_Body_acceleration_magnitude_std"
+[63] "mean_frequency_BodyBody_acceleration_Jerk_magnitude_mean"
+[64] "mean_frequency_BodyBody_acceleration_Jerk_magnitude_std"
+[65] "mean_frequency_BodyBody_gyroscope_magnitude_mean"
+[66] "mean_frequency_BodyBody_gyroscope_magnitude_std"
+[67] "mean_frequency_BodyBody_gyroscope_Jerk_magnitude_mean"
+[68] "mean_frequency_BodyBody_gyroscope_Jerk_magnitude_std"
